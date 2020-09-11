@@ -28,3 +28,7 @@ table{
   empty-cells: hide ;
   border-collapse: collapse;
 }
+
+a{
+  text-decoration: none;
+}
