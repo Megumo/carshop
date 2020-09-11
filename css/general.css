@@ -1,0 +1,30 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#company_name {
+  color: rgb(255, 100, 100);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px; 
+  font-weight : lighter;
+  font-style: normal;
+  text-transform: capitalize;
+  text-decoration: none; 
+  text-align: center;
+  text-shadow: 2px 2px 3px yellow;
+  text-indent: 0px;
+  letter-spacing:10px;
+  word-spacing: 20px;
+
+}
+
+ul{
+  /*list-style-position: inside;*/
+  list-style: square inside;
+
+}
+
+table{
+  empty-cells: hide ;
+  border-collapse: collapse;
+}

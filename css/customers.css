@@ -1,0 +1,27 @@
+.customer{
+  background-color: lavender;
+  margin: 30px 15px 30px 15px;
+
+  padding: 5px;
+  display: inline-block;
+  width: 200px;
+  /* height:180px; */
+  text-align: center;
+  /* overflow : scroll; */
+  font-style: italic;
+  box-sizing:border-box;
+  
+
+}
+.customer img{
+  height:120px;
+  margin: 0 auto; 
+  width: 180px;
+
+}
+
+#jal {
+  /* floatingfloat: right; */
+  position: fixed;
+  /* left: 50px; */
+}

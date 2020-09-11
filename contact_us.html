@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carshop-Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+  <div style="margin:0 auto; width: 80%">
+    <h1 id="company_name">Carshop</h1>
+    <h2>Contact Us</h2>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="customers.html">Customers</a>
+    <a href="contact_us.html">Contact Us</a>
+    <hr>
+    <form>
+      <input type="text" placeholder="First name" required> name="firstname">
+      <input type="text" placeholder="Last name" name="lastname">
+    <br>
+    <label for="password"> Password: </label>
+    <input type="password" name="password" id="password">
+   <br> 
+   <label for="date_of_appointment"> Date of appointment: </label>
+   <input type="date" name="date" id="date">
+   <br> 
+   <label for="e-mail"> Email Address: </label>
+   <input type="e-mail" name="e-mail" id="e-mail">
+   <br> 
+   <label for="message"> Message: </label>
+   <textarea id="message" name="msg" placeholder="Maximum of 1000 characters.">
+   </textarea>
+   <br>
+   <label for="month">Month</label>
+   <input type ="month"> id="month">
+  <br>
+  <label for="number">Number</label>
+  <input type ="number"> id="number">
+   <hr>
+            <br>
+            Purpose of communication:
+            <br>
+            <input type="radio" id="inquiry" name="concern">
+            <label for="inquiry">Inquiry</label>
+
+            <input type="radio" id="schedule" name="concern">
+            <label for="schedule">Schedule</label>
+
+            <input type="radio" id="suggestion" name="concern">
+            <label for="suggestion">Suggestion</label>
+            
+            <input type="radio" id="promotion" name="concern">
+            <label for="promotion">Promotion</label>
+            <hr>   
+            Preffered car brand:
+            <br> 
+        <input type ="checkbox" id="toyota" value="toyota">
+        <label for="toyota">Toyota</label>
+        <br>
+        <input type ="checkbox" id="toyota" value="toyota">
+        <label for="toyota">Toyota</label>
+        <hr>
+    
+        <select id="country" name="country">
+          <option value="jp">Japan</option>
+          <option value="us">United States</option>
+          <option value="ph">Philippines</option>
+        </select>
+        
+        
+    
+      <hr>
+      <label for="countryorigin">Country of origin</label>
+       
+      <br>
+      <select multiple id="countryoforigin"  name="country of origin">
+          <option value="jp">Japan</option>
+          <option value="us">United States</option>
+          <option value="ph">Philippines</option>
+        </select>      
+        <hr>
+        <label for="attachment">Attachment</label>
+        <input type="file" id="attachment" name="contact_us_attachment"> 
+  <hr>
+  <button type="button" value="Submit">Submit</button>
+ <br>
+ <input type="because" value ="Submit 2">     
+<input type="image" src="images/plastic-button-250x250.jpg">
+
+</form>
+
+   </div> 
+</body>
+</html>
